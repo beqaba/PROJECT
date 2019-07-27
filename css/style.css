@@ -1,5 +1,15 @@
 .containe{
-	background-image: url('../img/bground.jpg')
+	background-color: #8a0000;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+.containekontakti{
+	background-color: #8a0000;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	margin-top: -70px;
 }
 .container{
 	max-width: 1200px;
@@ -20,6 +30,7 @@ a:hover{
 .ss{
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 .carousel-inner{
 	max-width: 1200px;
@@ -27,6 +38,9 @@ a:hover{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
+}
+.bbb{
+	background-color: #8a0000;
 }
 .bo{
 	max-width: 1200px;
@@ -36,7 +50,8 @@ a:hover{
 	flex-direction: column;
     align-items: center;
     padding-top: 70px;
-}
+    background-color: #2f14ff;
+   }
 .box{
 	background-image: url('../img/player/mshtegen.jpg');
 	height: 400px;
@@ -46,7 +61,7 @@ a:hover{
 	margin-bottom: 50px;
 }
 .box1{
-	background-image: url('../img/player/nsemedo.png');
+	background-image: url('../img/player/nsemedo.jpg');
 	height: 400px;
 	width: 400px;
 	background-size: cover;
@@ -78,12 +93,147 @@ a:hover{
 	background-size: cover;
 	position: relative;
 	margin-bottom: 50px;
-
+}
+.box5{
+	background-image: url('../img/player/todibo.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box6{
+	background-image: url('../img/player/coutinho.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box7{
+	background-image: url('../img/player/artur.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box8{
+	background-image: url('../img/player/suarez.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box9{
+	background-image: url('../img/player/messi.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box10{
+	background-image: url('../img/player/dembele.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box11{
+	background-image: url('../img/player/rafinha.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box12{
+	background-image: url('../img/player/neto.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box13{
+	background-image: url('../img/player/malcom.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box14{
+	background-image: url('../img/player/lenglet.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box16{
+	background-image: url('../img/player/grizmane.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box17{
+	background-image: url('../img/player/alba.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box18{
+	background-image: url('../img/player/alenia.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box19{
+	background-image: url('../img/player/roberto.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box20{
+	background-image: url('../img/player/jong.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box21{
+	background-image: url('../img/player/vidal.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
+}
+.box22{
+	background-image: url('../img/player/umtiti.jpg');
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 50px;
 }
 .boxte{
 	position: absolute;
 	bottom: 0;
-	background: rgba(0, 0, 255, 0.5); /* Black see-through */ 
+	background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
 	width: 100%;
 	transition: 1.5s ease;
 	color: white;
@@ -94,7 +244,7 @@ a:hover{
 .boxte1{
 	position: absolute;
 	bottom: 0;
-  background: rgba(0, 0, 255, 0.5); /* Black see-through */ 
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
   width: 100%;
   transition: 1.5s ease;
   color: white;
@@ -105,7 +255,7 @@ a:hover{
 .boxte2{
 	position: absolute;
 	bottom: 0;
-  background: rgba(0, 0, 255, 0.5); /* Black see-through */ 
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
   width: 100%;
   transition: 1.5s ease;
   color: white;
@@ -116,7 +266,7 @@ a:hover{
 .boxte3{
 	position: absolute;
 	bottom: 0;
-  background: rgba(0, 0, 255, 0.5); /* Black see-through */ 
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
   width: 100%;
   transition: 1.5s ease;
   color: white;
@@ -127,7 +277,205 @@ a:hover{
 .boxte4{
 	position: absolute;
 	bottom: 0;
-  background: rgba(0, 0, 255, 0.5); /* Black see-through */ 
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte5{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte6{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte7{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte8{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte9{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte10{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte11{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte12{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte13{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte14{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte16{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte17{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte18{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte19{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte20{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte21{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte22{
+	position: absolute;
+	bottom: 0;
+  background: rgba(0, 0, 255, 0.9); /* Black see-through */ 
+  width: 100%;
+  transition: 1.5s ease;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  padding: 40px;
+}
+.boxte23{
+	position: absolute;
+	bottom: 0;
+  background: rgba(152, 11, 6, 0.9); /* Black see-through */ 
   width: 100%;
   transition: 1.5s ease;
   color: white;
@@ -149,4 +497,135 @@ a:hover{
 }
 .box4:hover .boxte4 {
   opacity: 1;
+}
+.box5:hover .boxte5 {
+  opacity: 1;
+}
+.box6:hover .boxte6 {
+  opacity: 1;
+}
+.box7:hover .boxte7 {
+  opacity: 1;
+}
+.box8:hover .boxte8 {
+  opacity: 1;
+}
+.box9:hover .boxte9 {
+  opacity: 1;
+}
+.box10:hover .boxte10 {
+  opacity: 1;
+}
+.box11:hover .boxte11 {
+  opacity: 1;
+}
+.box12:hover .boxte12 {
+  opacity: 1;
+}
+.box13:hover .boxte13 {
+  opacity: 1;
+}
+.box14:hover .boxte14 {
+  opacity: 1;
+}
+.box16:hover .boxte16 {
+  opacity: 1;
+}
+.box17:hover .boxte17 {
+  opacity: 1;
+}
+.box18:hover .boxte18 {
+  opacity: 1;
+}
+.box19:hover .boxte19 {
+  opacity: 1;
+}
+.box20:hover .boxte20 {
+  opacity: 1;
+}
+.box21:hover .boxte21 {
+  opacity: 1;
+}
+.box22:hover .boxte22 {
+  opacity: 1;
+}
+.box23:hover .boxte23 {
+  opacity: 1;
+}
+.kont{
+	display: flex;
+	justify-content: center;
+}
+.kontak{
+	margin-top: 70px;
+}
+ .inpbox{
+	max-width: 1280px;
+	width:100%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+	margin-bottom: 20px;
+}
+.inpbox  input{
+	width: 400px;
+	padding: 10px 30px;
+    border: 2px solid #960a0a;
+    margin-left: 20px;
+}
+textarea{
+    resize: none;
+    border: 2px solid #960a0a;
+    padding-right: 800px;
+
+}
+.h21{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	font-size: 24px;
+	font-weight: bold;
+}
+.h31{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.gagz{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.imgsoc{
+	height: 40px;
+	background-color: white;
+}
+.sociali{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.fot{
+	background-color: #626262;
+	padding: 5px;
+}
+.foot{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.foot1{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+    text-align: right;
 }
