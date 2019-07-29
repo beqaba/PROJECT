@@ -1,20 +1,31 @@
 .containe{
-	background-color: #8a0000;
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: cover;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
 }
-.containekontakti{
-	background-color: #8a0000;
+.containe111{
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: cover;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
-	margin-top: -70px;
+	margin-top: -53px;
+}
+.containekontakti{
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	margin-top: -53px;
 }
 .container{
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	background-color: #313332;
 }
 .bal{
 	height: 50px;
@@ -40,7 +51,8 @@ a:hover{
 	justify-content: space-around;
 }
 .bbb{
-	background-color: #8a0000;
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: contain;
 }
 .bo{
 	max-width: 1200px;
@@ -50,7 +62,10 @@ a:hover{
 	flex-direction: column;
     align-items: center;
     padding-top: 70px;
-    background-color: #2f14ff;
+    background-image: url('../img/29774.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
    }
 .box{
 	background-image: url('../img/player/mshtegen.jpg');
@@ -557,7 +572,9 @@ a:hover{
 	justify-content: center;
 }
 .kontak{
-	margin-top: 70px;
+	margin-top: 53px;
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: cover;
 }
  .inpbox{
 	max-width: 1280px;
@@ -628,4 +645,48 @@ input[type=submit] {
 	width: 100%;
 	margin: 0 auto;
     text-align: right;
+}
+.bob{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+    background-color: white; 
+   }
+.maincont{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 53px;
+}
+.hi1{
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 50px;
+    padding-top: 50px;
+}
+.hi2{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 30px;
+    padding-bottom: 20px;
+}
+.imi1{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pi1{
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	line-height: 20px;
+}
+.foni{
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: contain;
 }
