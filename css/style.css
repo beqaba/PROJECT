@@ -5,6 +5,14 @@
 	width: 100%;
 	z-index: 100;
 }
+.containetasebi{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	margin-top: -53px;
+	background-image: url('../img/istor/bgro.jpg');
+	background-size: cover;
+}
 .containe111{
 	background-image: url('../img/istor/bgro.jpg');
 	background-size: cover;
@@ -22,6 +30,12 @@
 	margin-top: -53px;
 }
 .container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #313332;
+}
+.containertasebi{
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
@@ -49,6 +63,15 @@ a:hover{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
+}
+.itemmain{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url('../img/s1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 53px;
 }
 .bbb{
 	background-image: url('../img/istor/bgro.jpg');
@@ -689,4 +712,33 @@ input[type=submit] {
 .foni{
 	background-image: url('../img/istor/bgro.jpg');
 	background-size: contain;
+}
+.item{
+ max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: grey;
+  display: flex;
+  position: relative;
+}
+.h222{
+      position: absolute;
+          left: 250px;
+          font-size: 20px;
+}
+.p2223{
+        position: absolute;
+        border-top: 1px solid;
+        top: 30px;
+        right: 95px;
+        width: 495px;
+        font-size: 16px;
+
+}
+.h333{
+   position: absolute;
+   right:20px;
+   top: 25px;
+   font-size: 50px;
 }
