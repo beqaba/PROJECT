@@ -90,3 +90,18 @@ body {
   background-image: url('../img/istor/bgro.jpg');
   background-size: contain;
 }
+.fot{
+  background-color: #626262;
+  padding: 5px;
+}
+.foot{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.foot1{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+    text-align: right;
+}
