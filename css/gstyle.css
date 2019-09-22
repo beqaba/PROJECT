@@ -105,3 +105,23 @@ body {
   margin: 0 auto;
     text-align: right;
 }
+
+@media screen and  (max-width: 375px){
+.containe {
+  max-width: 375px;
+  width:100%;
+  margin: 0 auto; 
+}
+.das {
+  padding-top: 195px;
+}
+
+@media screen and  (max-width: 414px){
+.containe {
+  max-width: 414px;
+  width:100%;
+  margin: 0 auto; 
+}
+.das {
+  padding-top: 195px;
+}
