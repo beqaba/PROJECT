@@ -643,7 +643,7 @@ textarea{
 .h21{
 	max-width: 1200px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 25px auto;
 	display: flex;
 	font-size: 24px;
 	font-weight: bold;
@@ -764,15 +764,40 @@ input[type=submit] {
    font-size: 50px;
 }
 
+.collapsible-menu{
+	display: none;
+}
+
+@media screen and  (max-width: 768px){
+.p2223{
+	right: 80px;
+    width: 410px;
+}
+}
+
+@media screen and  (max-width: 720px){
+.p2223{
+	right: 80px;
+    width: 410px;
+}
+}
 
 @media screen and  (max-width: 414px){
+
+.collapsible-menu{
+	display: inherit;
+}
+.container, .containertasebi, .container{
+	display: none;
+}
+
 .containe {
 	max-width: 395px;
 	width:100%;
 	margin: 0 auto; 
 }
 .bo{
-	padding-top: 300px;
+	padding-top: 50px;
 	background-attachment: fixed;
 }
 .immg1{
@@ -794,13 +819,13 @@ background-image: url('../img/s3.jpg');
 	background-size: contain;
 }
 .ss{
-	    padding-top: 245px;
+	    padding-top: 50px;
 }
 .imi1{
 	width: 397px;
 }
 .hi1{
-padding-top: 200px;
+padding-top: 0px;
 }
 .pi1{
 	width: 395px;
@@ -809,7 +834,7 @@ padding-top: 200px;
     max-width: 414px;
 }
 .itemmain {
-	padding-top: 200px;
+	padding-top: 0px;
 }
 .p2223{
 	display: none;
@@ -823,7 +848,7 @@ padding-top: 200px;
     top: 40px;
 }
 .kontak{
-	padding-top: 192px;
+	padding-top: 0px;
 }
 .inpbox input {
 	width: 167px;
@@ -839,6 +864,73 @@ textarea{
 .box19,.box20,.box21,.box22,.box{
 	width: 397px;
 }
+
+
+
+
+
+
+
+
+.menu-content {
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.collapsible-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 30px;
+    border-bottom: 3px solid #CDE700;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.collapsible-menu label {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    background: url(menu.png) no-repeat left center;
+    padding: 10px 0 10px 50px;
+}
+input#menu {
+    display: none;
+}
+input:checked +label {
+    background-image: url(close.png);
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+/* Toggle Effect */
+input:checked ~ label {
+    background-image: url(close.png);
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and  (max-width: 375px){
@@ -848,7 +940,7 @@ textarea{
 	margin: 0 auto; 
 }
 .bo{
-	padding-top: 300px;
+	padding-top: 50px;
 	background-attachment: fixed;
 }
 .immg1{
@@ -870,13 +962,14 @@ background-image: url('../img/s3.jpg');
 	background-size: contain;
 }
 .ss{
-	    padding-top: 245px;
+	    padding-top: 50px;
 }
 .imi1{
 	width: 358px;
 }
 .hi1{
-padding-top: 200px;
+padding-top: 0px;
+font-size: 26px;
 }
 .pi1{
 	width: 358px;
@@ -885,7 +978,7 @@ padding-top: 200px;
     max-width: 375px;
 }
 .itemmain {
-	padding-top: 200px;
+	padding-top: 0px;
 }
 .p2223{
 	display: none;
@@ -899,7 +992,7 @@ padding-top: 200px;
     top: 40px;
 }
 .kontak{
-	padding-top: 192px;
+	padding-top: 0fpx;
 }
 .inpbox input {
 	width: 167px;
@@ -914,4 +1007,5 @@ textarea{
 .box13,.box14,.box15,.box16,.box17,.box18,
 .box19,.box20,.box21,.box22,.box{
 	width: 358px;
+}
 }
