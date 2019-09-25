@@ -894,17 +894,18 @@ textarea{
 
 .collapsible-menu label {
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 56px;
-    display: block;
+	font-size: 30px;
+	display: block;
     cursor: pointer;
-    background: url(menu.png) no-repeat left center;
+    background: url(../img/menu.svg) no-repeat left center;
+	background-size: 10% 100%;
     padding: 10px 0 10px 50px;
 }
 input#menu {
     display: none;
 }
 input:checked +label {
-    background-image: url(close.png);
+    background-image: url(../img/close.svg);
 }
 
 .menu-content {
@@ -915,7 +916,7 @@ input:checked +label {
 }
 /* Toggle Effect */
 input:checked ~ label {
-    background-image: url(close.png);
+    background-image: url(../img/close.svg);
 }
 input:checked ~ .menu-content {
     max-height: 100%;

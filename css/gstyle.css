@@ -1,255 +1,279 @@
-.containe{
-  background-image: url('../img/istor/bgro.jpg');
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+.containe {
+    background-image: url('../img/istor/bgro.jpg');
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
-.container{
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #313332;
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #313332;
 }
-.bal{
-  height: 50px;
+
+.bal {
+    height: 50px;
 }
-.nav, .nav-pills, .flex-column, .flex-sm-row{
+
+.nav, .nav-pills, .flex-column, .flex-sm-row {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-  text-align: center;
-  padding: 70px;
-  
+    text-align: center;
+    padding: 70px;
+
 }
 
 .row {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-  background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-color: white;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+    margin-top: 8px;
+    vertical-align: middle;
 
 }
 
 /* Style the buttons */
 .btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .btn:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .btn.active {
-  background-color: #666;
-  color: white;
+    background-color: #666;
+    color: white;
 }
-.das{
-  padding-top: 10px;
-  padding-bottom: 30px;
-  font-weight: bold;
+
+.das {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
 }
-.foni{
-  background-image: url('../img/istor/bgro.jpg');
-  background-size: contain;
+
+.foni {
+    background-image: url('../img/istor/bgro.jpg');
+    background-size: contain;
 }
-.fot{
-  background-color: #626262;
-  padding: 5px;
+
+.fot {
+    background-color: #626262;
+    padding: 5px;
 }
-.foot{
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+
+.foot {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
-.foot1{
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+
+.foot1 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     text-align: right;
 }
 
-.collapsible-menu{
-  display: none;
-}
-
-@media screen and  (max-width: 414px){
-
-.collapsible-menu{
-  display: inherit;
-}
-.container{
-  display: none;
-}
-.foni{
-  background-image: none;
-}
-.containe {
-  max-width: 414px;
-  width:100%;
-  margin: 0 auto; 
-}
-.das {
-  padding-top: 0px;
-}
-
-
-
-
-.menu-content {
-    font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 50px;
-}
 .collapsible-menu {
-    background-color: rgb(255, 255, 255);
-    padding: 0px 30px;
-    border-bottom: 3px solid #CDE700;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
-}
-.collapsible-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-.collapsible-menu a {
-    display:block;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.collapsible-menu label {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 56px;
-    display: block;
-    cursor: pointer;
-    background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 50px;
-}
-input#menu {
     display: none;
 }
-input:checked +label {
-    background-image: url(close.png);
-}
 
-.menu-content {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 50px;
-}
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url(close.png);
-}
-input:checked ~ .menu-content {
-    max-height: 100%;
-}
+@media screen and  (max-width: 414px) {
 
-@media screen and  (max-width: 375px){
-.collapsible-menu{
-  display: inherit;
-}
-.container{
-  display: none;
-}
+    .collapsible-menu {
+        display: inherit;
+    }
 
+    .container {
+        display: none;
+    }
 
-.containe {
-  max-width: 375px;
-  width:100%;
-  margin: 0 auto; 
-}
-.das {
-  padding-top: 0px;
-}
+    .foni {
+        background-image: none;
+    }
+
+    .containe {
+        max-width: 414px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .das {
+        padding-top: 0px;
+    }
 
 
+    .menu-content {
+        font-family: 'Oswald', sans-serif;
+        padding: 0 0 0 50px;
+    }
+
+    .collapsible-menu {
+        background-color: rgb(255, 255, 255);
+        padding: 0px 30px;
+        border-bottom: 3px solid #CDE700;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .collapsible-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .collapsible-menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .collapsible-menu label {
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+        background: url(../img/menu.svg) no-repeat left center;
+        background-size: 10% 100%;
+        padding: 10px 0 10px 50px;
+    }
+
+    input#menu {
+        display: none;
+    }
+
+    input:checked + label {
+        background-image: url(../img/close.svg);
+    }
+
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+        font-family: 'Oswald', sans-serif;
+        padding: 0 0 0 50px;
+    }
+
+    /* Toggle Effect */
+    input:checked ~ label {
+        background-image: url(../img/close.svg);
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
+    }
+}
+
+@media screen and  (max-width: 375px) {
+    .collapsible-menu {
+        display: inherit;
+    }
+
+    .container {
+        display: none;
+    }
 
 
-.menu-content {
-    font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 50px;
-}
-.collapsible-menu {
-    background-color: rgb(255, 255, 255);
-    padding: 0px 30px;
-    border-bottom: 3px solid #CDE700;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
-}
-.collapsible-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-.collapsible-menu a {
-    display:block;
-    padding: 10px;
-    text-decoration: none;
-}
+    .containe {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-.collapsible-menu label {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 56px;
-    display: block;
-    cursor: pointer;
-    background: url(menu.png) no-repeat left center;
-    padding: 10px 0 10px 50px;
-}
-input#menu {
-    display: none;
-}
-input:checked +label {
-    background-image: url(close.png);
-}
-
-.menu-content {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 50px;
-}
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url(close.png);
-}
-input:checked ~ .menu-content {
-    max-height: 100%;
-}
+    .das {
+        padding-top: 0px;
+    }
 
 
+    .menu-content {
+        font-family: 'Oswald', sans-serif;
+        padding: 0 0 0 50px;
+    }
+
+    .collapsible-menu {
+        background-color: rgb(255, 255, 255);
+        padding: 0px 30px;
+        border-bottom: 3px solid #CDE700;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .collapsible-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .collapsible-menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .collapsible-menu label {
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+        background: url(../img/menu.svg) no-repeat left center;
+        background-size: 10% 100%;
+        padding: 10px 0 10px 50px;
+    }
+
+    input#menu {
+        display: none;
+    }
+
+    input:checked + label {
+        background-image: url(../img/close.svg);
+    }
+
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+        font-family: 'Oswald', sans-serif;
+        padding: 0 0 0 50px;
+    }
+
+    /* Toggle Effect */
+    input:checked ~ label {
+        background-image: url(../img/close.svg);
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
+    }
+}
